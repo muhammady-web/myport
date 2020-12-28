@@ -201,19 +201,6 @@ section .container .right{
 footer{
     height: 70px;
     background: #f1cb59;
-    color: antiquewhite;
 }
 
-footer p{
-    text-align: center;
-    color: #fff;
-    font-family: 'Roboto';
-    font-weight: 400;
-    position: relative;
-    top: 25px;
-}
-
-footer a{
-    color: rgb(218, 205, 190);
-}
 
