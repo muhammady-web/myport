@@ -272,17 +272,27 @@ section .cont .footer a{
     .right .container .education h3{
        font-size: 22px; 
     }
-    footer{
-        max-width: 100%;
+    section .cont .footer {
+        display: none;
     }
-    .line{
-        
-    }
+  
+    
 }
 
 @media (max-width: 575px){
-    footer{
-        max-width: 100%;
+    section .cont .footer {
+        display: none;
     }
 }
+
+@media (max-width: 767px){
+    section .cont .footer {
+        display: none;
+    } 
+     section .container .right .img{
+        width: 280px;
+        height: 320px;
+    }
+}
+
 
