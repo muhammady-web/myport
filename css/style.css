@@ -217,3 +217,72 @@ footer a{
     color: rgb(218, 205, 190);
 }
 
+@media (max-width: 1199px){
+    section .container .left .name h1{
+        font-size: 55px;
+    } 
+    section .container .left .name h3{
+        font-size: 30px;
+    }
+    section .container .left .call{
+        padding-bottom: 30px;
+    }
+    section .container .left .profile h3{
+        font-size: 50px;
+    }
+    section .container .left .profile p{
+        font-size: 16px;
+    }
+    .right .container .education h3{
+       font-size: 22px; 
+       margin-bottom: 10px;
+    }
+    .right .container .education h6{
+        margin-bottom: 30px;
+    }
+    .right .container .education h4{
+        font-size: 20px;
+         margin-top: 30px;
+    }
+    .right .container .education h5{
+        font-size: 16px;
+    }
+    .right .container .education ul{
+        margin-bottom: 40px;
+    }
+    .line{
+        height: 753px;
+    }
+    
+}
+
+@media (max-width: 991px){
+    section .container .left .name h1{
+        font-size: 45px;
+    } 
+    section .container .left .name h3{
+        font-size: 23px;
+    }
+    section .container .left .profile h3{
+        font-size: 50px;
+    }
+    section .container .left .profile p{
+        font-size: 16px;
+    }
+    .right .container .education h3{
+       font-size: 22px; 
+    }
+    footer{
+        max-width: 100%;
+    }
+    .line{
+        
+    }
+}
+
+@media (max-width: 575px){
+    footer{
+        max-width: 100%;
+    }
+}
+
