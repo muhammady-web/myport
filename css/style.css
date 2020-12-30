@@ -198,13 +198,13 @@ section .container .right{
 }
 
 
-footer{
+section .cont .footer{
     height: 70px;
     background: #f1cb59;
     color: antiquewhite;
 }
 
-footer p{
+section .cont .footer p{
     text-align: center;
     color: #fff;
     font-family: 'Roboto';
@@ -213,7 +213,7 @@ footer p{
     top: 25px;
 }
 
-footer a{
+section .cont .footer a{
     color: rgb(218, 205, 190);
 }
 
